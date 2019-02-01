@@ -13,7 +13,7 @@ JavaScript implementation of Minimax as described here:
 3 `jest spec/test.js`
 
 ### FUTURE
-I plan to clean up the Minimax function and move it into its own module. I think it would be fun to make this configurable so it can be used by `DumbPlayer`. They can pick the best worst moves!  
+I plan to clean up the Minimax function and move it into its own module. I think it would be fun to make this configurable so it can be used by `DumbPlayer`. They can pick the best worst moves!  Also, Minimax could benefit from memoization so I would like to implement that as well.
 
 GameState is also bugging me. Lots of redudant code in there.
 
